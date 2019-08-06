@@ -1,8 +1,8 @@
-# Bootsrap Modal
+#### Bootsrap 3 Modal
 
-## Template
+##### HTML
 
-### Modal
+###### Modal
 
 ```html
 <div id="TARGET_MODAL" class="modal fade" tabindex="-1">
@@ -24,20 +24,20 @@
 </div>
 ```
 
-### Button that triggers it
+###### Button that triggers it
 
 ```html
 <button type="button" data-toggle="modal" data-target="#TARGET_MODAL"> Modal Button </button>
 ```
 
-### From JS
+#### SCRIPTS
 
-#### Open Modal
+###### Open Modal
 ```js
 $("#TARGET_MODAL").modal('hide');
 ```
 
-#### Close Modal
+###### Close Modal
 ```js
 $('#TARGET_MODAL').modal('show');
 ```
